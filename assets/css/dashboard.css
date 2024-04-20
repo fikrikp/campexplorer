@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+:root
+{
+    --bg-color: #ffffff; 
+    --text-color: #000; 
+    --secound-color: #a09dab; 
+    --main-color: #f75023; 
+    --big-font: 5rem; 
+    --h2-font: 3rem; 
+    --p-font: 1.1rem;
+    --color-h1 : #417F3E;
+}
+
+header
+{
+position: fixed;
+height: 100%;
+width: 25%;
+top: 0;
+left: 0;
+z-index: 1000;
+display:grid;
+align-items: center;
+justify-content:center;
+background:#417F3E;
+padding: 0px ;
+transition: .3s;
+}
+
+header li{
+    display: flex;
+}
+header img{
+    height: 40px;
+    width: 0px;
+}
+.navlist
+{
+display:list-item;
+padding: 10px;
+}
+.navlist li{
+    position: relative;
+    padding: 20px;
+}
+.navlist a{
+    color: var(--bg-color);
+    font-weight: 500;
+    font-size: medium;
+    padding: 8px 25px;
+    
+    border: 2px solid #417F3E;
+    border-radius: 8px;
+    color: #ffffff ;
+}
+
+.navlist a:hover
+{
+transform: scale(1.1);
+background: var(--bg-color);
+color: var(--color-h1);
+transition: .2s;
+}
+
+.logo
+{
+    color: var(--bg-color);
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.body-container{
+    margin-left: 10%;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    width: 1500px;
+
+}
+
+.card {
+    width: 1000px;
+    margin: 20px;
+    background-color: #c6efc4;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    display:flex;
+  }
+  
+  .card-img{
+   display: flex;
+  }
+  .card-img-top {
+    height: 150px;
+    float: right;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    margin-top: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #417F3E;
+    font-size: 30px;
+  }
+  
+  
+  .btn {
+    font-size: 14px;
+  }
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+.form-container{
+    display: grid;
+    grid-template-columns: 400px 800px ;
+    padding: 0px;
+    margin: 0px 250px;
+    width: 1000px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgb(131, 131, 131);
+    border-radius: 20px;
+}
+
+.form1{
+    border: 0.2px solid rgb(131, 131, 131);
+    border-radius: 18px;
+    left: 0;
+    margin: 0;
+    padding: 80px;
+}
+
+.form2{
+    align-items: center;
+    padding: 20px;
+    margin-right: 200px;
+}
+
+.ellipse {
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    background-color: #ddd; /* Set background color */
+    border-radius: 50% 50%; /* Set large horizontal and vertical radius */
+}
+
+.btn{
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #417F3E;
+}

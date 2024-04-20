@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+
+:root {
+    font-family: "Poppins", sans-serif;
+  }
+
+body {
+    background-color:#E3FFE2;;
+    padding-top: 5vh;
+    width: 100%;
+    z-index: 1000;
+}
+
+main {
+    display: flex;
+    padding-inline: 10vh;
+    width: 86%;
+    margin-top: 110px;
+    margin-left: 80px;
+    padding-top: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-pembayaran {
+    width: 90%;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    color: var(--color-h1);
+    box-shadow: 0 2px 4px var(--secound-color);
+    border-radius: 7px;
+    margin-right: 20px;
+}
+
+.btn-pembayaran {
+    font-weight: 600;
+}
+
+.btn-back {
+    display: flex;
+    border: 1px solid;
+    background-color: var(--color-h1);
+    color: var(--bg-color);
+    width: 45px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-right: 50px;
+
+}
+
+.btn-back .btn-arrow i {
+    position: relative;
+    padding-left: 9px;
+    padding-top: 9px;
+
+}
+
+/* Section informasi Pelanggan */
+
+.section-pelanggan {
+    display: block;
+    position: relative;
+    margin-top: 46px;
+    padding-top: 10px;
+    margin-left: 240px;
+    width: 860px;
+}
+
+.wrapper-pelanggan1 {
+    display: flex;
+    position: relative;
+    background-color: var(--color-h1);
+    color: var(--bg-color);
+    width: 860px;
+    height: 156px;
+    justify-content: start;
+    padding-top: 19px;
+    padding-left: 27px;
+    border-radius: 7px;
+}
+
+.text-pelanggan1 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.wrapper-pelanggan2 {
+    display: flex;
+    position: absolute;
+    width: 860px;
+    height: 120px;
+    background-color: var(--bg-color);
+    color: var(--color-h1);
+    margin-top: -110px;
+    border-radius: 7px;
+    box-shadow: 0px 2px 4px var(--secound-color);
+}
+
+.text-pelanggan2 {
+    padding-top: 29px;
+    padding-left: 27px;
+}
+
+.text-pelanggan2 h2 {
+    font-weight: 800;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.text-pelanggan2 p {
+    padding-top: 20px;
+    font-weight: 800;
+}
+
+/* Section pemesanan */
+.section-pemesanan {
+    display: block;
+    position: relative;
+    margin-top: 60px;
+    margin-left: 240px;
+    width: 860px;
+}
+
+.wrapper-pemesanan {
+    display: flex;
+    background-color: var(--color-h1);
+    color: var(--bg-color);
+    height: 156px;
+    border-radius: 7px;
+    padding-top: 19px;
+    padding-left: 27px;
+    justify-content: start;
+}
+
+.text-pemesanan {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.wrapper-ranca-upas {
+    display: flex;
+    position: absolute;
+    width: 860px;
+    height: 105px;
+    background-color: var(--bg-color);
+    color: var(--color-h1);
+    margin-top: -110px;
+    border-radius: 7px;
+    box-shadow: 0px 2px 4px var(--secound-color);
+    padding-top: 27px;
+    padding-left: 27px;
+    justify-content: space-between;
+}
+
+.text-ranca-upas h2 {
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+
+.text-ranca-upas2 .jumlah-tiket {
+    display: flex;
+    position: absolute;
+    justify-content: end;
+    margin-left: 750px;
+    margin-top: -30px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.text-ranca-upas .harga-perorang {
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.wrapper-paket {
+    display: flex;
+    position: absolute;
+    width: 860px;
+    height: 120px;
+    background-color: var(--bg-color);
+    color: var(--color-h1);
+    margin-top: -10px;
+    border-radius: 7px;
+    box-shadow: 0px 2px 4px var(--secound-color);
+    padding-top: 27px;
+    padding-left: 27px;
+    justify-content: space-between;
+}
+
+.text-paket h2 {
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.text-paket .jumlah-paket {
+    display: flex;
+    position: absolute;
+    justify-content: end;
+    margin-left: 770px;
+    margin-top: -10px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.text-paket .harga-paket {
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.wrapper-total {
+    display: flex;
+    position: absolute;
+    width: 860px;
+    height: 110px;
+    background-color: var(--bg-color);
+    color: var(--color-h1);
+    margin-top: 90px;
+    margin-left: -28px;
+    border-radius: 7px;
+    box-shadow: 0px 2px 4px var(--secound-color);
+    padding-left: 27px;
+    justify-content: space-between;
+}
+
+.text-total h2 {
+    margin-top: 35px;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-left: 2px;
+}
+
+.text-total2 .total-harga {
+    display: flex;
+    position: relative;
+    margin-top: -27px;
+    font-weight: 800;
+    margin-left: 715px;
+    font-size: 18px;
+}
+
+/* Section metode pembayaran */
+.section-pembayaran2 {
+    display: block;
+    position: relative;
+    margin-top: 280px;
+    margin-left: 240px;
+    width: 860px;
+}
+
+.wrapper-pembayaran2 {
+    display: flex;
+    background-color: var(--color-h1);
+    color: var(--bg-color);
+    height: 156px;
+    border-radius: 7px;
+    padding-left: 27px;
+    padding-top: 19px;
+    justify-content: start;
+}
+
+.text-pembayaran2 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.wrapper-methode {
+    display: flex;
+    position: relative;
+    padding-top: 40px;
+    padding-left: 27px;
+    background-color: var(--bg-color);
+    color: var(--color-h1);
+    box-shadow: 0px 2px 4px var(--secound-color);
+    margin-top: -100px;
+    border-radius: 7px;
+}
+
+.text-methode {
+    position: absolute;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.text-bri {
+    position: relative;
+    padding-top: 50px;
+    font-weight: 500;
+}
+
+.logo-bri {
+    position: relative;
+    margin-left: 500px;
+    padding-bottom: 20px;
+    margin-top: -10px;
+}
+
+/* Reservasi tiket */
+.reservasi-tiket {
+    display: flex;
+    position: relative;
+    width: 860px;
+    padding-bottom: 90px;
+}
+
+.reservasi-tiket .container-2 {
+    position: relative;
+    display: flex;
+    margin-top: 45px;
+    margin-left: 240px;
+    justify-content: end;
+    align-items: start;
+}
+
+.reservasi-tiket .container-2 .text-tiket h2{
+    display: inline-flex;
+    background-color: var(--bg-color);
+    width: 580px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px var(--secound-color);
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    padding-top: 5px;
+    color: var(--color-h1);
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.reservasi-tiket .container-3 {
+    position: relative;
+    display: flex;
+    margin-top: 45px;
+    margin-left: -500px;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.reservasi-tiket .container-3 .reservasi-sekarang h2 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 540px;
+    width: 240px;
+    height: 30px;
+    box-shadow: 0 2px 4px var(--secound-color);
+    background-color: var(--color-h1);
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: var(--bg-color);
+    font-size: 10px;
+    text-transform: uppercase;
+
+}
+
+.container-4 {
+    display: flex;
+    position: absolute;
+    margin-left: 410px;
+    margin-top: 54px;
+}
+
+.upload-payment {
+    color: var(--color-h1);
+}
+

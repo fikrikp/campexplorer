@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+
+:root {
+    font-family: "Poppins", sans-serif;
+  }
+
+body {
+    background-color: var(--bg-color);
+    padding-top: 14vh;
+    width: 100%;
+}
+
+nav .wrapper-grup {
+    display: block;
+    position: relative;
+    background-color: var(--bg-color);
+    box-shadow: 2px 4px var(--secound-color);
+    padding-top: 20px;
+    border-radius: 7px;
+    
+}
+
+.nav-grup {
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+
+.nav-grup li {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-weight: 800;
+}
+
+.icons-grup {
+    display: flex;
+    padding-inline-start: 700px;
+    justify-content: space-between;
+}
+
+.icons-grup li {
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+.section-bubble-chat {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.wrapper-chat, .wrapper-chat2, .wrapper-chat3, .wrapper-chat4 {
+    display: flex;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.bubble-chat, .bubble-chat2, .bubble-chat3, .bubble-chat4 {
+    border: 1px solid var(--color-h1);
+    position: relative;
+    width: 350px;
+    padding-top: 15px;
+    margin-left: 15px;
+    color: var(--color-h1);
+    border-radius: 7px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.timer, .timer2 {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 75px;
+    font-size: 10px;
+}
+
+.wrapper-chat5 {
+    display: flex;
+    margin-top: 20px;
+    padding-right: 20px;
+    justify-content: end;
+}
+
+.bubble-chat5 {
+    border: 1px solid var(--color-h1);
+    position: absolute;
+    width: 350px;
+    padding-top: 15px;
+    padding-bottom: 19px;
+    margin-right: 65px;
+    color: var(--bg-color);
+    background-color: var(--color-h1);
+    border-radius: 7px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+
+/* Section typed text */
+.typed-text {
+    display: flex;
+}
+
+.wrapper-typed-text {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 20px;
+    width: 1500px;
+    height: 70px;
+}
+
+.wrapper-typed-text .icons-typed-text i {
+    position: relative;
+    font-size: 25px;
+    padding-left: 10px;
+    justify-content: center;
+
+}
+
+.bubble-typed-text {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 1080px;
+    height: 70px;
+    margin-left: 10px;
+    padding-left: 15px;
+    
+}
+
+.bubble-typed-text .wrap-chat {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    background-color: #DDDDDD ;
+    width: 1000px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+.bubble-typed-text .wrap-chat p {
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.bubble-typed-text .icons-last {
+    display: flex;
+    padding-right: 30px;
+    position: relative;
+    font-size: 20px;
+    height: 20px;
+}
+.bubble-typed-text .icons-last {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-inline-end: 25px;
+    align-items: center;
+    margin-left: -70px;
+}
+
+.voice-note {
+    position: relative;
+    margin-left: 90px;
+    font-size: 30px;
+}
+.smile-icons {
+    padding-left: 830px;
+    font-size: 24px;
+}
+
+
+
+
+/* footer */
+
+footer
+{
+width: 100%;
+right: 0;
+z-index: 1000;
+display: flex;
+
+justify-content:space-between;
+background:#417F3E;
+padding: 50px ;
+transition: .3s;
+}
+.footerlist
+{
+display: flex;
+}
+.footerlist li{
+    position: relative;
+}
+.footerlist a{
+    font-size:12px;
+    color: var(--bg-color);
+    font-weight: 500;
+    padding: 10px 10px;
+}
+
+.logo
+{
+    color: var(--bg-color);
+    justify-content: left;
+    font-weight: bolder;
+}
+
+.social
+{
+   align-self: baseline;
+}
+
+.col:hover
+{
+    
+    border-radius: 12px;
+    box-shadow: 18px 0px 87px 0px rgb(10, 15, 70/7%);
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.col-img{
+    padding: 50px;
+}
+
+.col-img:hover
+{
+    transform: scale(1.1);
+    transition: .2s;
+}
+.col-img::after
+{
+    transition: ease;
+}

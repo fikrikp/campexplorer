@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+
+:root {
+    font-family: "Poppins", sans-serif;
+  }
+
+body {
+    background-color: var(--bg-color);
+    padding-top: 14vh;
+    width: 100%;
+}
+
+/* Section Invite add friend and search */
+.section-add-friends{
+    padding-top: 5vh;
+    background-color: var(--bg-color);
+    display: block;
+    position: relative;
+}
+
+.section-add-friends .wrapper-friends {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 90px;
+    padding: 5px 20px 30px;
+}
+
+.wrapper-friends i {
+    position: relative;
+}
+
+.wrapper-friends  .icons-plus i {
+    position: relative;
+    margin-left: 50px;
+    padding-left: 150px;
+}
+
+.wrapper-friends .icons-qrcode {
+    position: relative;
+    margin-left: 280px;
+}
+
+.wrapper-friends .icons-search {
+    position: relative;
+    margin-left: 230px;
+}
+
+.wrapper-friends p {
+    display: flex;
+    font-size: 20px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.wrapper-friends .icons-plus p {
+    margin-left: 190px;
+    padding-left: 27px;
+}
+
+.wrapper-friends .icons-qrcode p {
+    width: 110px;
+}
+
+.wrapper-friends .icons-search p {
+    margin-left: 10px;
+}
+
+/* Section Auto add friends and Create Group */
+
+.section-auto-add {
+    background-color: var(--third-color);
+    display: block;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.wrapper-auto-add {
+    display: block;
+}
+
+.auto-add, .create-group {
+    display: flex;
+    position: relative;
+    justify-content: start;
+    align-items: center;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.auto-add img {
+    width: 70px;
+}
+
+.auto-add h2 {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.auto-add p {
+    margin-left: 20px;
+    margin-top: 5px;
+    font-weight: 100;
+    color: var(--text-color);
+}
+
+.btn-allow {
+    position: relative;
+    background-color: var(--color-h1);
+    margin-left: 760px;
+    width: 80px;
+    border-radius: 7px;
+}
+
+.btn-allow p {
+    position: relative;
+    padding-inline-end: 20px;
+    padding-bottom: 5px;
+    color: var(--bg-color);
+}
+
+.create-group img {
+    width: 70px;
+}
+
+.create-group h2 {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.create-group p {
+    margin-left: 20px;
+    margin-top: 5px;
+    font-weight: 100;
+    color: var(--text-color);
+}
+
+.btn-next {
+    position: relative;
+    margin-left: 710px;
+    width: 80px;
+    border-radius: 7px;
+    font-size: 25px;
+}
+
+/* Section official account */
+
+.section-oa {
+    display: block;
+    position: relative;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}
+
+.wrapper-oa {
+    display: block;
+}
+.wrapper-oa h1 {
+    margin-left: 20px;
+    color: var(--text-color);
+}
+.wrapper-oa p {
+    display: flex;
+    position: absolute;
+    margin-left: 1130px;
+    margin-top: -15px;
+}
+
+.all-about-bandung, .camping-murce {
+    display: flex;
+    position: relative;
+    justify-content: start;
+    align-items: center;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.all-about-bandung img, .camping-murce img {
+    width: 70px;
+}
+
+.all-about-bandung2 h2, .camping-murce h2 {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.all-about-bandung2 p, .camping-murce p {
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+/* Section Friends recommendation */
+
+.section-fr {
+    display: block;
+    position: relative;
+    padding-bottom: 10vh;
+}
+
+.wrapper-fr {
+    display: block;
+}
+.wrapper-fr h1 {
+    display: flex;
+    color: var(--text-color);
+    margin-left: 20px;
+    font-weight: 50;
+}
+/* .wrapper-fr2  {
+    display: flex;
+    justify-content: end;
+    border: 1px solid;
+    position: relative;
+} */
+
+.pevita-pearce {
+    display: flex;
+    position: relative;
+    justify-content: start;
+    align-items: center;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.pevita-pearce img {
+    width: 70px;
+}
+
+.pevita-pearce2 h2 {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.pevita-pearce2 p {
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.img-pevita img {
+    position: relative;
+    width: 40px;
+    margin-left: 615px;
+}
+
+
+
+
+/* footer */

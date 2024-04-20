@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+
+  :root {
+    font-family: "Poppins", sans-serif;
+  }
+
+body {
+    background-color:#E3FFE2;
+}
+
+/* Detail lokasi camping */
+.detail-lokasi {
+    width: 100%;
+    position: relative;
+}
+
+.detail-lokasi .container {
+    position: relative;
+    display: flex;
+    margin-top: 110px;
+    margin-left: 80px;
+    padding-top: 25px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.detail-lokasi .container .section {
+    display: flex;
+    background-color: var(--bg-color);
+    width: 700px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px var(--secound-color);
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+
+.btn-back {
+    display: flex;
+    position: relative;
+    justify-content: start;
+    margin-left: 200px;
+    padding-bottom: 280px;
+    margin-top: -40px;
+    
+}
+
+.btn-back i {
+    background-color: var(--color-h1);
+    color: var(--bg-color);
+    font-size: 20px;
+    width: 45px;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: center;
+    padding-inline-start: 14px;
+}
+
+.btn-back .btn-arrow i  {
+    padding-top: 10px;
+}
+
+/* Lokasi memakai maps */
+.box-maps {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-maps .maps {
+    display: inline-flex;
+    position: relative;
+    width: 700px;
+    height: 120px;
+    justify-content: space-between;
+    background-color: var(--bg-color);
+    box-shadow: 0 2px 4px var(--secound-color);
+    margin-top: 110px;
+    margin-left: 80px;
+    top: -370px;
+    border-radius: 5px;
+}
+
+.text-wrapper {
+    top: 0;
+    left: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px 20px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.harga {
+    position: absolute;
+    margin-top: 5px;
+    left: 500px;
+    font-size: 20px;
+    color: var(--color-h1);
+    font-weight: bolder;
+}
+
+.rating p {
+    position: absolute;
+    font-size: 14px;
+    margin-top: 52px;
+    right: 500px;
+    color: var(--color-h1);
+    font-weight: bold;
+}
+
+.rating ul {
+    margin-top: 50px;
+    right: 600px;
+    color:  #FFD43B;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+img {
+    position: absolute;
+    margin-top: 100px;
+}
+
+/* Gambar detail tempat */
+.part-of-location {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.part-of-location .col {
+    display: flex;
+    position: relative;
+    background-color: var(--bg-color);
+    box-shadow: 0 2px 4px var(--secound-color);
+    border-radius: 5px;
+    margin-top: -80px;
+    width: 700px;
+    height: 170px;
+    margin-left: 90px;
+    justify-content: center;
+    
+}
+.part-of-location .col .picture {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    width: 130px;
+    margin-top: 16px;
+    margin-right: 430px;
+}
+
+.part-of-location .col .picture2 {
+    position: absolute;
+    margin-top: -98px;
+    margin-right: 280px;
+    
+}
+.part-of-location .col .picture3 {
+    position: absolute;
+    margin-top: -98px;
+    margin-right: 5px;
+    
+}
+.part-of-location .col .picture4 {
+    position: absolute;
+    margin-top: -98px;
+    margin-left: 270px;
+    
+}
+
+.part-of-location .col .btn-arrow-right {
+    background-color: var(--color-h1);
+    margin-top: 85px;
+}
+
+.btn-arrow-right .arrow-right {
+    padding-inline-start: 14px;
+}
+
+.arrow-right span {
+    padding-top: 10px;
+    margin-left: -248px;
+    background-color: var(--color-h1);
+    color: var(--bg-color);
+    font-size: 20px;
+    width: 45px;
+    height: 40px;
+    border-radius: 5px;
+    padding-inline-start: 14px;
+}
+
+/* judul fasilitas */
+.frame {
+    left: 220px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 20px;
+    position: absolute;
+}
+  
+  .frame .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-left: 72px;
+    font-family: var(--PAYTONE-36-font-family);
+    font-weight: var(--PAYTONE-36-font-weight);
+    color: var(--hijau-full);
+    font-size: var(--PAYTONE-36-font-size);
+    letter-spacing: var(--PAYTONE-36-letter-spacing);
+    line-height: var(--PAYTONE-36-line-height);
+    font-style: var(--PAYTONE-36-font-style);
+    border: none;
+  }
+  
+  .label {
+    left: 110px;
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    margin-top: 200px;
+    margin-right: 450px;
+    display: flex;
+    justify-content: start; 
+  }
+  
+  .label .bumi-perkemahan {
+    display: flex;
+    position: absolute;
+    height: 90px;
+    /* top: 0;
+    left: 0; */
+    font-family: var(--POPPINS-SEMI-20-font-family);
+    font-weight: var(--POPPINS-SEMI-20-font-weight);
+    color: #417f3e;
+    font-size: 10px;
+    letter-spacing: var(--POPPINS-SEMI-20-letter-spacing);
+    line-height: var(--POPPINS-SEMI-20-line-height);
+    font-style: var(--POPPINS-SEMI-20-font-style);
+  }
+
+.label li {
+    list-style: disc inside;
+
+  }
+
+.label2 {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    margin-left: 270px;
+}
+
+.label2 .padang-rumput-savana {
+    display: flex;
+    position: absolute;
+    height: 90px;
+    list-style: circle;
+    font-family: var(--POPPINS-SEMI-20-font-family);
+    font-weight: var(--POPPINS-SEMI-20-font-weight);
+    color: #417f3e;
+    font-size: 10px;
+    letter-spacing: var(--POPPINS-SEMI-20-letter-spacing);
+    line-height: var(--POPPINS-SEMI-20-line-height);
+    font-style: var(--POPPINS-SEMI-20-font-style);
+  }
+
+.label3 {
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    margin-left: 550px;
+}
+
+.label3 .toilet-gazebo {
+    display: flex;
+    position: absolute;
+    height: 90px;
+    list-style: circle;
+    font-family: var(--POPPINS-SEMI-20-font-family);
+    font-weight: var(--POPPINS-SEMI-20-font-weight);
+    color: #417f3e;
+    font-size: 10px;
+    letter-spacing: var(--POPPINS-SEMI-20-letter-spacing);
+    line-height: var(--POPPINS-SEMI-20-line-height);
+    font-style: var(--POPPINS-SEMI-20-font-style);
+  }
+
+/* Reservasi tiket */
+.reservasi-tiket {
+    width: 100%;
+    position: absolute;
+}
+
+.reservasi-tiket .container-2 {
+    position: relative;
+    display: inline-flex;
+    margin-top: 220px;
+    margin-left: 330px;
+    padding-top: 25px;
+    justify-content: end;
+    align-items: center;
+}
+
+.reservasi-tiket .container-2 .text-tiket h2{
+    display: inline-flex;
+    background-color: var(--bg-color);
+    width: 530px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px var(--secound-color);
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    padding-inline-end: 390px;
+    color: var(--color-h1);
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.reservasi-tiket .container-3 {
+    position: relative;
+    display:flex;
+    margin-left: 330px;
+    margin-top: -40px;
+}
+
+.reservasi-tiket .container-3 .reservasi-sekarang h2 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 540px;
+    width: 170px;
+    height: 40px;
+    box-shadow: 0 2px 4px var(--secound-color);
+    background-color: var(--color-h1);
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: var(--bg-color);
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.reservasi-tiket .btn-tiket {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: space-between;
+    margin-left: 750px;
+    margin-top: -30px;
+    margin-bottom: 100px;
+}
+
+.reservasi-tiket .btn-tiket .minus i {
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-h1);
+    color: var(--bg-color);
+    padding-left: 3px;
+    padding-top: 2px;
+    position: relative;
+    border-radius: 5px;
+    margin-right: 110px;
+    box-shadow: 0 2px 4px var(--secound-color);
+
+}
+
+
+.reservasi-tiket .btn-tiket p {
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    background-color: var(--bg-color);
+    color: var(--color-h1);
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 1px;
+    padding-inline-start: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: 0 2px 4px var(--secound-color);
+}
+
+.reservasi-tiket .btn-tiket .plus i {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-h1);
+    color: var(--bg-color);
+    padding-left: 3px;
+    padding-top: 1px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px var(--secound-color);
+    margin-right: 800px;
+    margin-left: -50px;
+    margin-bottom: 40px;
+}
+
+/* .fasilitas {
+    display: flex;
+    position: absolute;
+    border: 1px solid black;
+    width: 700px;
+    height: 400px;
+    margin-top: 600px;
+}
+
+.fasilitas .col-2 {
+    display: flex;
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    margin-right: 500px;
+    columns: 3px;
+    border: 1px solid;
+    font-size: ;
+
+}
+
+.fasilitas .col-2 .text-tittle {
+    position: relative;
+}
+
+.fasilitas .col-2 .text-tittle h2 {
+    font-size: 100px;
+}
+ */
+
+
+/* .fasilitas .col-2 .row { */
+    /* display: grid;
+    grid-template-columns: 3px;
+    grid-template-rows: 5px;
+
+} */
+
+
+/* .part-of-location .col2 {
+    display: flex;
+    position: relative;
+    border: 1px solid black;
+} */

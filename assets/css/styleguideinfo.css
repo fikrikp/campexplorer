@@ -1,0 +1,62 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+ .guide-text h2
+ {
+    color:#417F3E ;
+    font-family: Paytone system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+     font-size: 70px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.guide-text p
+{
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.guide-text h3
+{
+    color: black;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container img
+{
+    padding: 40px;
+    margin-top: 150px;
+}
+
+.top-back{
+    display: inline-block;
+    padding: 9px 30px;
+    background:#417F3E;
+    border: 2px solid #417F3E;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    font-size: var(--p-font);
+    font-weight: 500;
+    margin-left: 45%;
+    color: #ffffff;
+    margin-bottom: 10%;
+   
+}
+
+.top-back:hover
+{
+transform: scale(1.1);
+background: var(--main-color);
+border: 2px solid var(--main-color);
+color: var(--bg-color);
+transition: .2s;
+}
